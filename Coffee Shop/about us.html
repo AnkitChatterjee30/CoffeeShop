@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About us</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #474e5d;
+      color: white;
+    }
+    .about-section h1{
+      font-size: 50px;
+      margin-bottom: 20px;
+      text-decoration: underline;
+    }
+    .about-section p{
+      font-size: 27px;
+      font-weight: 200;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    .card {
+      height: 60rem;
+    }
+
+
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="about-section">
+    <h1>About the Creaters</h1>
+    <p>Welcome to our about-us Page.</p>
+    <p>Following are the people who have worked really very hard to create this huge meagproject of coffee shop, snacks shop in the form of a website.</p>
+  </div>
+
+  <h2 style="text-align:center; font-size: 35px;">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="images/rahul.jpg" alt="Rahul" style="width:100%">
+        <div class="container">
+          <h2>Rahul Mandal</h2>
+          <p class="title">CEO</p>
+          <p>Technical lead <br>Former Marketing Lead.</p>
+          <p>Has worked very sincerely in the backend of our application and in the designing part as well.</p>
+          <p>rahulmandal1403@gmail.com</p>
+          <p><button class="button">Contact:7550948319</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/ankit.jpg" alt="ankit" style="width:100%">
+        <div class="container">
+          <h2>Ankit chatterjee</h2>
+          <p class="title">Director</p>
+          <p>Leader of the snack sector.<br>A good developer and helps in technical things also.</p>
+          <p>Frontend Web Developer</p>
+          <p>ankitchatterjee30@gmail.com</p>
+          <p><button class="button">Contact:9475937912</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/gouranga.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Gouranga Kamilya</h2>
+          <p class="title">Member</p>
+          <p>Checks the Quality of the products.<br>Arrange overall requirements.</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="images/satyam.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Satyam Mahapatra</h2>
+          <p class="title">Marketing Lead.</p>
+          <p>One of the senior members of our team.<br>Always played a key roll in the marketing and distribution sector.</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="column">
+      <div class="card">
+        <img src="images/soumyadeep.jpg" alt="John" style="width:100% ">
+        <div class="container">
+          <h2>Soumyadeep Chakrabarty</h2>
+          <p class="title">Member</p>
+          <p>One of the Senior member of the team.<br>Collection of food items, making and preparation is controlled by him.</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/sovik.png" alt="John" style="width:100% ">
+        <div class="container">
+          <h2>Sovik Gorai</h2>
+          <p class="title">Designer</p>
+          <p>A designer of our team.<br>One of the very first members. <br> He has explored about various cuisines and their tastes and cultures also.</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
