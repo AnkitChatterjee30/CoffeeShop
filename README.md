@@ -4,7 +4,8 @@ Hello everyone. Welcome to our coffee shop website.
 
 
 
-
+Visit our website at  https://ankitchatterjee30.github.io/CoffeeShop/Coffee%20Shop/
+Contact us at https://ankitchatterjee30.github.io/CoffeeShop/Coffee%20Shop/contact.html
 
 
 
